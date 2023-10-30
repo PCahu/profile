@@ -15,6 +15,11 @@ a:hover {
   background-color:#739072;
 }
 
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .sml {
   font-size: 50px;
   list-style: none;
@@ -27,7 +32,7 @@ a:hover {
 .card-white {
   background: whitesmoke;
   border: 2px solid #3A4D39;
-  margin: 20px;
+  margin: 30px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #3A4D39;
@@ -55,6 +60,14 @@ a:hover {
   text-align: center;
 }
 
+.button {
+  color:#ECE3CE;
+  background:#3A4D39;
+  margin: 30px;
+  padding: 10px;
+  text-decoration: none;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -80,3 +93,4 @@ a:hover {
   .container {
     width: 300px;
   }
+}

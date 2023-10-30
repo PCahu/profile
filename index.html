@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
   </head>
 
   <body>
@@ -32,10 +32,21 @@
 
       <div class="card-white">
         <h4> Current Occupation: (almost) programmer! </h4>
-        <p> I'm currently Student at Le Wagon in Bali and just coded this page. What do you think? </p>
+        <p> I'm currently Student at Le Wagon in Bali and just coded this page.</p>
 
-        <a href="https://avatars.githubusercontent.com/u/147330364?v=4"> Visit my profile </a>
+        <label for="ratings-choice"> Give a rating 1 to 5:
+        <input list="choices" id="ratings-choice" name="ratings-choice" />
+        </label>
+          <datalist id="choices">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+          </datalist>
       </div>
+
+      <a class="button" href="https://avatars.githubusercontent.com/u/147330364?v=4"> Visit my profile </a>
 
       <div class="follow">
         <h2> Follow me! </h2>
